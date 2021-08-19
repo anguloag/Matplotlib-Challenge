@@ -12,7 +12,7 @@ The metadata for all 249 mice included in the study are contained in a csv file 
 
 The data for the results of the drug trials are contained in a csv file called "Study_results". The dataset is organized into four columns:
 - Mouse ID - the unique ID number for each mouse 
-- Timepoint - the timepoint in which the data was taken (0, 5, 10, 15, 20, 25, 30, 35, 40, and 45). Going down the rows, the data is organized chronilogically such that all of the results from each timepoint are grouped together going from time 0 to time 45. 
+- Timepoint - the timepoint in which the data was taken (0, 5, 10, 15, 20, 25, 30, 35, 40, and 45). Going down the rows, the data is organized chronologically such that all of the results from each timepoint are grouped together going from time 0 to time 45. 
 - Tumor Volume (mm3) - the tumor volume for each mouse, measured at each timepoint in cubic millimeters 
 - Metastatic Sites - the number of metastative sites for each mouse at each timepoint
 
