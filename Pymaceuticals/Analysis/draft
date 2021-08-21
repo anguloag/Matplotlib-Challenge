@@ -28,10 +28,13 @@ print(tumorVolSum_df)
 tumorVolSum_dfOneLine = tumorVolSum_df.aggregate([np.mean, np.median, np.var, np.std, sem])
 print(tumorVolSum_dfOneLine)
 
+-----Bar graphs-----
 # Generate a bar plot showing 
 # the total number of timepoints for all mice tested for each drug regimen...
 
 # using Pandas:
+drugReg_times = combined_byDrugReg['Timepoint']..... len(__.unique()) ???
+drugReg_times = drugReg_times.set_index('Drug Regimen')
 
 
 # using pyplot:
