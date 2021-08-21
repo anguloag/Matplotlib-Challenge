@@ -1,1 +1,41 @@
+-----Summary Stats-----
+
+import numpy as np
+from scipy.stats import sem
+
+combined_byDrugReg = combined_clean.groupby(['Drug Regimen'])
+print(drugReg)
+
+drugReg_means = np.mean(combined_byDrugReg['Tumor Volume (mm3)'])
+print(drugReg_means)
+
+drugReg_medians = np.median(combined_byDrugReg['Tumor Volume (mm3)'])
+print(drugReg_medians)
+
+drugReg_vars = np.var(combined_byDrugReg['Tumor Volume (mm3)'])
+print(drugReg_vars)
+
+drugReg_stdevs = np.std(combined_byDrugReg['Tumor Volume (mm3)'])
+print(drugReg_stdevs)
+
+drugReg_sems = sem(combined_byDrugReg['Tumor Volume (mm3)'])
+print(drugReg_sems)
+
+tumorVolSum_df = pd.DataFrame[{'Mean':drugReg_means,'Median':drugReg_medians,
+'Variance':drugReg_vars,'Standard Deviation':drugReg_stdevs,'SEM':drugReg_sems
+print(tumorVolSum_df)
+
+tumorVolSum_dfOneLine = tumorVolSum_df.aggregate([np.mean, np.median, np.var, np.std, sem])
+print(tumorVolSum_dfOneLine)
+
+# Generate a bar plot showing 
+# the total number of timepoints for all mice tested for each drug regimen...
+
+# using Pandas:
+
+
+# using pyplot:
+
+
+
 
