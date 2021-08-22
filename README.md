@@ -5,7 +5,7 @@ Develop a code using python, pandas, and matplotlib to analyze the results of Py
 ### Description of the Data: Mouse_metadata and Study_results
 The metadata for all 249 mice included in the study are contained in a csv file called "Mouse_metadata". The dataset is organized into five columns: 
 - Mouse ID - the unique ID number for each mouse 
-- Drug Regimen - the drug treatment assigned to each mouse (Capomulin, )
+- Drug Regimen - the drug treatment assigned to each mouse (Capomulin, Placebo, or one of 8 other drug regimens)
 - Sex - the sex of each mouse (Male or Female)
 - Age_months - the age of each mouse, measured in months
 - Weight (g) - The weight of each mouse, measured in grams 
