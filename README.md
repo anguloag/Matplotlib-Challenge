@@ -1,4 +1,4 @@
-# Pymaceuticals: Matplotlib Challenge
+# Pymaceuticals: Matplotlib Challenge 
 ### Objective
 Develop a code using python, pandas, and matplotlib to analyze the results of Pymaceuticals' recent animal study of potential treatments for squamous cell carcinoma, and develop summary tables and figures that compare the performance of Pymaceuticals' Capomulin to other treatment regimens. 
 
